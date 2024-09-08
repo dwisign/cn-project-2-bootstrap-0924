@@ -140,6 +140,18 @@ body{
   }
 }
 
+.newsBox{
+  margin-bottom: 80px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid #dedede;
+  .textNews{
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    justify-content: center;
+  }
+}
+
 .yellow{
   background: yellow;
 }
